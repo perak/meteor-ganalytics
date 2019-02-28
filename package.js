@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Publish pageviews and events to Google Analytics. Forked from datariot:ganalytics and added DNT support.",
+  summary: "Google Analytics with DNT support. Forked from datariot:ganalytics v0.3.0",
   version: "0.3.0",
   name: "perak:ganalytics", 
   git: 'https://github.com/perak/meteor-ganalytics.git'
