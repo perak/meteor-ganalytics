@@ -1,13 +1,13 @@
 GAnalytics: Google Analytics for Meteor
 ===================================
 
-Log page views and events to Google Analytics.
+Log page views and events to Google Analytics. Forked from https://github.com/datariot/meteor-ganalytics.git and added DNT support. 
 
 **NOTE:** This package uses the newer *analytics.js* file for ["Universal Analytics"](https://support.google.com/analytics/answer/2790010?hl=en). This package will not work if you are not on the newer collection system. 
 
 ### Installing
 ```
-meteor add datariot:ganalytics
+meteor add perak:ganalytics
 ```
 
 If you don't have a settings.json file, you need to add one and load it according to the Meteor documentation. http://docs.meteor.com/#meteor_settings
