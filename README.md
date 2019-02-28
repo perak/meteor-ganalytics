@@ -56,7 +56,8 @@ You can also [provide options](https://developers.google.com/analytics/devguides
       "cookieDomain": "mynew.domain.com",
       "cookieExpires": 60 * 60 * 24 * 28,  // Time in seconds.
       "trackInterests": true,  // Enable also GA website and
-      "trackInPage": true      // force/ignore the Google check.
+      "trackInPage": true,     // force/ignore the Google check.
+      "respectDNT": false       // If set to true and user has DNT enabled, nothing will be sent to google (and no cookies will be set by ga). Default: false (but GDPR requires this to be set to true).
     }
   }
 }
